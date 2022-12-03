@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólió</title>
+    <script src="https://kit.fontawesome.com/ec7d5b467b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a class="header-logo" href="#fooldal">Lőrincz Gábor</a>
+        <nav>
+            <ul>
+                <li class="nav-list_elem"><a href="#fooldal">Főoldal</a></li>
+                <li class="nav-list_elem"><a href="#rolam">Rólam</a></li>
+                <li class="nav-list_elem"><a href="#portfolio">Portfólió</a></li>
+                <li class="nav-list_elem"><a href="#kapcsolat">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="fooldal">
+            <div class="fooldal-container">
+                <h1 class="fooldal-container_nev">Lőrincz Gábor</h1>
+                <h2 class="fooldal-container_foglalkozas">Frontend Webfejlesztő</h2>
+                <button class="fooldal-container_gomb">Kapcsolat</button>
+            </div>
+            <!-- <img src="./assets/Lőrincz Gábor.jpg" alt="Lőrincz Gábor /"> -->
+        </section>
+        <section id="rolam">
+            <h2 class="rolam-cim">Rólam</h2>
+            <div class="rolam-container">
+                <div class="rolam-kepessegek">
+                    <img src="./assets/Lőrincz Gábor.jpg" alt="Lőrincz Gábor" />
+                    <div class="rolam-kepessegek_container">
+                        <p class="rolam-kepessegek_container">Technológiák:</p>
+                        <ul class="rolam-kepessegek_lista">
+                            <li class="rolam-kepessegek_elem">HTML</li>
+                            <li class="rolam-kepessegek_elem">CSS</li>
+                            <li class="rolam-kepessegek_elem">JavaScript</li>
+                            <li class="rolam-kepessegek_elem">Wordpress</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="rolam-tartalom">
+                    <h4 class="rolam-tartalom_udv">Sziasztok, Gábornak hívnak</h4>
+                    <h3 class="rolam-tartalom_nev">Lőrincz Gábor</h3>
+                    <h4 class="rolam-tartalom_udv">Frontend webfejlesztő</h4>
+                    <p class="rolam-tartalom_szoveg">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Inventore non blanditiis qui tenetur nisi laboriosam similique eaque libero dolore magni? 
+                        Id natus veniam suscipit earum ducimus deserunt laborum consequuntur, 
+                        ut ab fugiat, reprehenderit aliquid soluta! 
+                        Itaque maiores eum at accusantium, officiis temporibus. 
+                        Architecto nihil culpa sapiente minima fugiat minus tempore rerum quaerat. 
+                        Facere, perferendis cumque. Molestiae cum vitae ut eaque amet!
+                        Ipsam velit, quod ducimus dolore quos accusamus! 
+                        Accusantium sed fugiat, eos voluptatem nesciunt est. 
+                        Eius totam consectetur sunt cum hic sed saepe alias, 
+                        est quasi molestiae voluptates corporis non dicta, eos eligendi? 
+                        Odit in dicta numquam tempore, ipsa delectus.
+                    </p>
+                    <div class="rolam-tartalom_container">
+                        <button class="rolam-tartalom_gomb">Kapcsolat</button>                   
+                        <button class="rolam-tartalom_gomb">Önéletrajz</button>                   
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="portfolio">
+            <h2 class="portfolio-cim">Portfólió</h2>
+            <div class="portfolio-container">
+                <div class="portfolio-projekt">
+                    <img src="./assets/SzínkörProjekt.png" alt="A projektem" />
+                    <div class="portfolio-projekt_container">
+                        <h3>Portfólió oldal</h3>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-container">
+                <div class="portfolio-projekt">
+                    <img src="./assets/ssnv.png" alt="A projektem" />
+                    <div class="portfolio-projekt_container">
+                        <h3>Portfólió oldal</h3>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-container">
+                <div class="portfolio-projekt">
+                    <img src="./assets/vvik.png" alt="A projektem" />
+                    <div class="portfolio-projekt_container">
+                        <h3>Portfólió oldal</h3>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-container">
+                <div class="portfolio-projekt">
+                    <img src="./assets/kkzs.png" alt="A projektem" />
+                    <div class="portfolio-projekt_container">
+                        <h3>Portfólió oldal</h3>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kapcsolat">
+            <h2 class="kapcsolat-cim">Kapcsolat</h2>
+            <h3 class="kapcsolat-szoveg">Lépj velem kapcsolatba</h3>
+            <form 
+                    action="https://formspree.io/f/mnqrkejp"
+                    method="POST"
+            >
+                <input type="text" id="name" name="nev" placeholder="Név" />
+                <input type="email" id="email" placeholder="Email" />
+                <textarea name="message" id="message" placeholder="Üzenet"></textarea>
+                <input type="submit" value="Küld">
+            </form>
+            <ul class="kapcsolat-social">
+                <li class="kapcsolat-social_elem">
+                    <a href="https://linkedin.com">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>    
+                <li class="kapcsolat-social_elem">
+                    <a href="https://github.com">
+                        <i class="fa-brands fa-github-alt"></i>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+    <footer>
+        <div>
+            <p>Copyright</p>
+            <div>&copy;</div>
+            <p>2022 Lőrincz Gábor</p>
+        </div>
+    </footer>
+    <div>
+        <a href="#fooldal"><i class="fa-solid fa-chevron-up"></i></a>
+    </div>
+</body>
+</html>
